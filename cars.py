@@ -73,4 +73,12 @@ class SportsCar(Cars):
 s1 = SportsCar("porsche", "modelblabla", 900000, 78)
 s1.get_info()
 
-    
+
+#creating a list of all cars
+
+cars_list = [car1, e1, s1]
+
+#polymorphism
+for car in cars_list:
+    car.get_info()
+    print()    
